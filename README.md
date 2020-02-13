@@ -6,18 +6,18 @@
     - jre-8u221-windows-x64
     
 ### Android SDK tools on terminal
-    [Android SDK](https://developer.android.com/studio#downloads)
-    [Installation of platform-tools and build tools using sdkmanager](https://developer.android.com/studio/command-line/sdkmanager.html)
+* [Android SDK](https://developer.android.com/studio#downloads)
+* [Installation of platform-tools and build tools using sdkmanager](https://developer.android.com/studio/command-line/sdkmanager.html)
     
 ### Maven installed and configured variables for global command usage in your local computer
     - apache-maven-3.6.2-bin
 
 ### Make sure that the tools and platform tools have system environment variables(Just put the absolute path for those tools)
-    - Example:
-    ```cmd
+* Example: 
+```cmd
     C:\Program Files\sdk-tools-windows-4333796\tools\bin 
     C:\Program Files\sdk-tools-windows-4333796\platform-tools
-    ```
+```
 
 ### Integrated Development Environment(IDE) 
 - IntelliJ
