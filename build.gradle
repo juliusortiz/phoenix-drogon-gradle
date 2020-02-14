@@ -3,6 +3,7 @@ plugins {
 }
 apply plugin: 'java'
 apply plugin: 'maven'
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 
@@ -19,6 +20,6 @@ dependencies {
     compile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.1'
-
 }
+
 
