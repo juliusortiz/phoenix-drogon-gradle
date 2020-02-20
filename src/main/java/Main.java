@@ -1,3 +1,4 @@
+import cucumber.api.java.Before;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -19,7 +20,7 @@ public class Main {
 
 
             //Login driver
-            driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"Business Type\")").click();
+            driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"android:id/text1\")").click();
             driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"Phoenix Petroleum\")").click();
             driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"Username\")").sendKeys("pp.sa");
             driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"Password\")").sendKeys("P@ssw0rd123");
@@ -54,6 +55,5 @@ public class Main {
             Thread.sleep(1000);
             driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"Logout\")").click();
             Thread.sleep(1000);
-            main(null);
     }
 }
